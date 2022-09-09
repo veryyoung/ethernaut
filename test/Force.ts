@@ -19,8 +19,6 @@ describe("Force", function () {
   });
 
   it("Should fuck force success", async function () {
-    const accounts = await ethers.getSigners();
-
     await fuckForce.fuck({ value: 1 });
 
     expect(await ethers.provider.getBalance(force.address)).to.greaterThan(BigNumber.from(0));
