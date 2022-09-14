@@ -7,8 +7,6 @@ describe("GatekeeperOne", function () {
   let gatekeeperOne: GatekeeperOne;
   let fuckGatekeeperOne: FuckGatekeeperOne;
 
-  const data = "0x72ebbfefb90b97503346b4ec6cac5230947e8237a171ca593561ebc6ddc9def5";
-
   beforeEach(async function () {
     const gatekeeperOneFactory = await ethers.getContractFactory("GatekeeperOne");
     gatekeeperOne = await gatekeeperOneFactory.deploy();
