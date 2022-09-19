@@ -32,6 +32,7 @@
     "typescript": ">=4.5.0"
   },
   "dependencies": {
+    "@ethersproject/asm": "^5.7.0",
     "@openzeppelin/contracts": "^4.7.3"
   }
 }
